@@ -224,7 +224,7 @@ namespace Program
         public Random rand = new Random();
         public vknet()
         {
-            api.Authorize(new ApiAuthParams { AccessToken = "7e47e6963f9dd3706247f72496b4873a9902e8bf0338aacf449c96e8dde786b907b466c03494893a2e2a8" });
+            api.Authorize(new ApiAuthParams { AccessToken = "ЗДЕСЬ ТОКЕН СООБЩЕСТВА" });
         }
         public string username(long? id)
         {
@@ -297,7 +297,7 @@ namespace Program
             vknet vknet = new vknet();
             while (true)
             {
-                var s = vknet.api.Groups.GetLongPollServer(186588300);
+                var s = vknet.api.Groups.GetLongPollServer(ЗДЕСЬ ID СООБЩЕСТВА);
                 var poll = vknet.api.Groups.GetBotsLongPollHistory(new VkNet.Model.RequestParams.BotsLongPollHistoryParams
                 {
                     Server = s.Server,
