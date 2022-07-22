@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKBOTVIP", "VKBOTVIP.csproj", "{19B17B71-A3F9-4B31-ACE9-FA1420D081ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B17B71-A3F9-4B31-ACE9-FA1420D081ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B17B71-A3F9-4B31-ACE9-FA1420D081ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B17B71-A3F9-4B31-ACE9-FA1420D081ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B17B71-A3F9-4B31-ACE9-FA1420D081ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BA5BB35-3A4C-4E85-BF56-D3554E48EB7B}
+	EndGlobalSection
+EndGlobal
